@@ -1,0 +1,236 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Sumit Singh} \\ \vspace{5pt}
+     \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +(91)9870177363 ~ \href{mailto:sumitsinghtp304@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{sumitsinghtp304@gmail.com}} ~ 
+    \href{https://linkedin.com/in/sumit-singh304/}{\raisebox{-0.2\height}\faLinkedin\ \underline{sumit-singh304}}  ~
+    \href{https://github.com/singh05sumit}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/singh05sumit}}
+    \vspace{-8pt}
+\end{center}\vspace{+10pt}
+
+
+%-----------EDUCATION-----------
+\section{Technical Skills}
+\vspace{2pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages and Databases}{: Python, PostgreSQL} \\
+     \vspace{4pt}
+     \textbf{Libraries}{: Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn} \\
+     \vspace{4pt}
+     \textbf{Visualization Tools}{: Advance Excel, Microsoft Power BI} \\
+     \vspace{4pt}
+     \textbf{Data Analysis Skills}{: Data Wrangling, Exploratory Data Analysis, Data Visualization, Applied Statistics, Machine Learning Basics, ETL}
+    }}
+ \end{itemize}
+ 
+%------RELEVANT COURSEWORK-------
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Workgen Solution Pvt. Ltd.}{ June 2022 -- Nov 2022}
+      {Operation Executive}\
+      \resumeItemListStart
+        \resumeItem{Maintained daily workforce records and compiled comprehensive reports,resulting in improvement in data accuracy for senior management’s decision making.}
+        \resumeItem{Conducted background verifications for over 125,000 + new and current employees, reducing theft and criminal activity and improving overall security by 30 \% at industrial premises.}
+        \resumeItem{Analyzed and monitored shifts data to confirm slot availability for over 50,000+ store workers, leading to a 25 \% reduction in logistical and shift change issues.}
+        
+      \resumeItemListEnd
+      \vspace{6pt}
+
+    \resumeSubheading
+      {Mitsui O.S.K. Lines Pvt. Ltd.}{Aug 2017 -- Jan 2019}
+      {Assistant Engineer}{}
+      \resumeItemListStart
+        \resumeItem{Engineered daily operations of ship machinery as a Junior Engineer on a container vessel,enhancing system performance and reducing downtime by 20 \% .}
+        \resumeItem{Participated in all safety and environmental drills as directed by the Captain, ensuring compliance and enhancing overall
+emergency preparedness.}
+        \resumeItem{Diagnosed and resolved critical issues during a scheduled maintenance period of engine room machinery, collaborating with senior engineers to achieve 100 \% operational efficiency and prevent project delays..}
+        
+    \resumeItemListEnd
+    \vspace{6pt}
+    
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section {Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Airbnb Booking Analysis} - Python, Pandas, Matplotlib, Seaborn \href{https://github.com/singh05sumit/Capstone-EDA-Project-Airbnb-Booking-Analysis}{\textbf{\textcolor{gray}{GitHub}}}}
+          
+          \resumeItemListStart
+            \resumeItem{Performed in-depth Exploratory Data Analysis (EDA) on Airbnb booking data, using Python and Pandas to clean, transform, and analyze datasets. Uncovered significant trends in guest booking patterns and pricing strategies.}
+            \resumeItem{Developed insightful visualizations with Matplotlib and Seaborn, highlighting key factors such as seasonal demand variations across various locations, resulting in a black increase in booking accuracy predictions.}
+}
+            \resumeItem{Delivered strategic recommendations to improve listing performance and maximize revenue, empowering hosts with
+data-driven insights for better decision- making and competitive positioning.}
+            }
+          \resumeItemListEnd
+
+        % VITA rest API project
+          \vspace{-10pt}
+          \resumeProjectHeading
+          {\textbf{HR Analytics Dashboard} - Power Query Editor, Power  BI  \href{https://https://github.com/singh05sumit/HR_Analytics_Dashboard}{\textbf{\textcolor{gray}{GitHub}}}}
+           
+          \resumeItemListStart
+            \resumeItem{Designed and implemented an HR Analytics Dashboard in Power BI, tracking Key Performance Indicators (KPI) such as employee count, attrition rates, and job satisfaction.}
+}
+            \resumeItem{Developed interactive visualizations, including black Bar Graphs, Donut Charts and Area Charts using statistical methods to analyze and compare KPIs related.}
+}
+            \resumeItem{Created trendlines and target lines within the dashboard, enabling HR teams to monitor progress against KPIs and achieve a 25\% reduction in unplanned turnover by identifying and addressing key attrition factors.}
+.}
+            
+            \vspace{+8pt}
+          \resumeItemListEnd
+        %   CODE FORCES DIARY PROJECT
+              \vspace{-20pt}
+          
+              \resumeItemListEnd           
+              \resumeSubHeadingListEnd
+\vspace{12pt}
+
+
+%
+%-----------EDUCATION SKILLS-----------
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Tolani Maritime Institute (University - BITS PILANI)}{Aug. 2013 -- Aug 2017}
+      {Bachelor of Technology in Marine Engineering}{Pune, Maharashtra}
+  \resumeSubHeadingListEnd
+
+\vspace{-18pt}
+
+
+\end{document}
